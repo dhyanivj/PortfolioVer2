@@ -32,7 +32,7 @@
 
 .screen1 {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/back-nav.jpg");
+    url("../images/back-nav.webp");
   background-size: cover;
   background-position: center;
 }
