@@ -86,13 +86,6 @@ h1 {
   float: left;
 }
 
-hr {
-  height: 2px;
-  border-width: 0;
-  color: gray;
-  background-color: gray;
-  display: ;
-}
 .icon i {
   margin-right: 1em;
   color: #065050;
@@ -250,4 +243,54 @@ footer {
 .fa {
   transform: scale(1.2) !important;
   transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+  }
+  .hi {
+    top: 7px;
+  }
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+  .aboutme img {
+    height: 10em;
+    margin: 14px 23%;
+  }
+  .abtme {
+    margin: 11px 20%;
+  }
+  .icon {
+    margin-top: -7px;
+    margin-bottom: 2em;
+  }
+  .aboutme div {
+    margin-left: 0.5em;
+  }
+  .threeprojects {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10%;
+  }
+  .projects {
+    height: max-content;
+  }
+  .skills > div {
+    flex-direction: column;
+  }
+  .skills > div > div > img {
+    height: 14em;
+    width: 19em;
+  }
+  .allskills {
+    width: 17em;
+  }
+  skills > div {
+    padding: 1em;
+  }
 }
